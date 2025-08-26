@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const SERVER_URL = "http://77.110.121.102/api";
+const SERVER_URL = "http://localhost:3000";
 
 const Button = ({ onClick, children }) => (
   <button
