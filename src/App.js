@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const SERVER_URL = "http://77.110.121.102";
+const SERVER_URL = "http://77.110.121.102/";
 
 const Button = ({ onClick, children }) => (
   <button
@@ -145,7 +145,6 @@ export default function Receiver() {
   useEffect(() => {
     socketRef.current = io(SERVER_URL, {
       transports: ["websocket"],
-      path: "/", // 👈 important
     });
 
     pcRef.current = new RTCPeerConnection({
