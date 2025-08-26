@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/r-camscan/static/css/main.e6c13ad2.css",
+    "main.js": "/r-camscan/static/js/main.3d3500d6.js",
+    "static/js/453.3abab8c2.chunk.js": "/r-camscan/static/js/453.3abab8c2.chunk.js",
+    "index.html": "/r-camscan/index.html",
+    "main.e6c13ad2.css.map": "/r-camscan/static/css/main.e6c13ad2.css.map",
+    "main.3d3500d6.js.map": "/r-camscan/static/js/main.3d3500d6.js.map",
+    "453.3abab8c2.chunk.js.map": "/r-camscan/static/js/453.3abab8c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3d3500d6.js"
+  ]
+}
